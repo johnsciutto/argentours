@@ -1,7 +1,7 @@
 {
-  "name": "natours",
+  "name": "Argentours",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proof of concept of a company website built using Sass",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
@@ -13,7 +13,7 @@
     "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
   },
-  "author": "",
+  "author": "johnsciutto",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.8.4",
